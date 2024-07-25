@@ -4,10 +4,13 @@ id: "brands"
 content:
   title: "Los partners que confían en nosotros"
   items:
-    - "images/partner_braveup.png"
-    - "images/partner_icono2.png"
-    - "images/partner_hubtec2.png"
-    - "images/partner_udd2.png"
-    - "images/partner_crislab.png"
-
-
+    - image: "images/partner_braveup.png"
+      url: "https://www.braveup.com/"
+    - image: "images/partner_icono2.png"
+      url: "https://www.udd.cl/icono-udd/"
+    - image: "images/partner_hubtec2.png"
+      url: "https://www.hubtec.cl/"
+    - image: "images/partner_udd2.png"
+      url: "https://www.udd.cl/en/"
+    - image: "images/partner_crislab.png"
+      url: "https://criss-lab.com/"

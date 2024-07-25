@@ -7,11 +7,11 @@ content:
   situaciones de bullying de manera temprana. Proporcionamos un reporte que permite tomar decisiones informadas para crear un entorno 
   escolar más seguro."
 
- # buttonPrimary:
- #   label: "¿Cómo trabajamos?"
- #   url: ""
+  buttonPrimary:
+    label: "Hablemos!"
+    url: "mailto:hola@capybara.cl"
 
- # buttonSecondary:
- #   label: "Hablemos!"
- #   url: ""
+  # buttonSecondary:
+  #   label: "Hablemos!"
+  #   url: ""
 

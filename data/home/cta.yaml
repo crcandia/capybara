@@ -5,5 +5,5 @@ content:
   title: "¡Construyamos juntos un futuro sin acoso escolar!"
   image: "images/logo_CAPYBARA-03.png"
   button:
-    label: "Hablemos"
-    url: "#"
+    label: "Hablemos!"
+    url: "mailto:hola@capybara.cl"

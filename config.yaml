@@ -1,6 +1,6 @@
 baseURL: "https://capybaratest.netlify.app/"
 theme: "up-business-theme"
-languageCode: "es-us"
+languageCode: "es"
 
 title: "CAPYBARA"
 
@@ -55,21 +55,24 @@ menus:
     #   url: "/#"
     #   weight: 4
 
-    - name: "Blog"
-      url: "/blog"
-      weight: 5
+    # - name: "Blog"
+    #   url: "/blog"
+    #   weight: 5
 
   buttons:
     - name: "Agenda una llamada"
-      url: "/#"
+      url: "mailto:hola@capybara.cl"
       weight: 5
       pre: "btn btn-primary text-light"
 
   footer:
     - name: "Home"
-      url: "/#hero"
+      url: "/#"
       weight: 1
 
+    - name: "Hablemos!"
+      url: "mailto:hola@capybara.cl"
+      weight: 2
     # - name: "¿Cómo trabajamos?"
     #   url: "/#"
     #   weight: 2
@@ -82,9 +85,9 @@ menus:
     #   url: "/#"
     #   weight: 4
 
-    - name: "Blog"
-      url: "/blog"
-      weight: 5
+    # - name: "Blog"
+    #   url: "/blog"
+    #   weight: 5
 
 taxonomies:
   series: "series"

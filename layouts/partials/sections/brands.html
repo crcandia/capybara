@@ -10,10 +10,11 @@
     <div class="row align-items-center justify-content-center">
       {{ range .content.items }}
       <div class="col px-3 my-2 text-center">
-        {{ partial "utilities/image-third.html" . }}
+        <a href="{{ .url }}" target="_blank">
+          <img src="{{ .image }}" class="img-fluid" alt="Partner logo">
+        </a>
       </div>
       {{ end }}
     </div>
   </div>
 </section>
-
