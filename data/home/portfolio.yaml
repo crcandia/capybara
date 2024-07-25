@@ -2,39 +2,29 @@ enabled: true
 id: "portfolio"
 
 content:
-
   - image: "images/prensa111.png"
     pretitle: "Capybara en medios"
     title: "Videojuego predice y previene el bullying escolar con ayuda de la tecnología"
     text: "Se trata de Capybara, el cual permite identificar potenciales casos de acoso, contribuyendo a la creación de entornos saludables y una mejora en los procesos de aprendizaje."
-
     buttons: 
       - label: "Leer más"
         url: "https://www.24horas.cl/tendencias/tecnologia-y-ciencias/videojuego-chileno-predice-y-previene-bullying-escolar"
-
-      # - label: "Read more"
-      #   url: "#"
+    imageUrl: "https://www.24horas.cl/tendencias/tecnologia-y-ciencias/videojuego-chileno-predice-y-previene-bullying-escolar"
 
   - image: "images/prensa222.png"
     pretitle: "Capybara en medios"
     title: "Videojuego chileno predice y previene bullying escolar en niños de primero a quinto básico"
     text: "La experiencia de 'Capybara' dura en total cerca de 45 minutos, incluyendo una charla introductoria, el juego y un reporte final."
-
     buttons: 
       - label: "Leer más"
         url: "https://www.emol.com/noticias/Economia/2024/01/25/1119686/videojuego-predice-previene-bullying-escolar.html"
-
-      # - label: "Read more"
-      #   url: "#"
+    imageUrl: "https://www.emol.com/noticias/Economia/2024/01/25/1119686/videojuego-predice-previene-bullying-escolar.html"
 
   - image: "images/prensa333.png"
     pretitle: "Capybara en medios"
     title: "Angelino es parte del equipo creativo de innovador videojuego que predice y previene el bullying"
     text: "Capybara permite identificar potenciales casos de acoso escolar, contribuyendo a la creación de entornos saludables y una mejora en los procesos de aprendizaje."
-
     buttons: 
       - label: "Leer más"
         url: "https://www.latribuna.cl/nuestra-gente/2024/02/07/angelino-es-parte-del-equipo-creativo-de-innovador-videojuego-que-predice-y-previene-el-bullying.html"
-
-      # - label: "Read more"
-      #   url: "#"
+    imageUrl: "https://www.latribuna.cl/nuestra-gente/2024/02/07/angelino-es-parte-del-equipo-creativo-de-innovador-videojuego-que-predice-y-previene-el-bullying.html"

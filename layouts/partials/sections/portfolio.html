@@ -2,14 +2,12 @@
   <div class="container">
     <div class="row pb-5">
       <div class="col-12">
-          <h3 class="fs-1 fw-bold text-center text-secondary pb-3">Capybara en medios</h3>
+        <h3 class="fs-1 fw-bold text-center text-secondary pb-3">Capybara en medios</h3>
       </div>
     </div>
 
     {{ range .content }}
     <div class="row portfolio-feature">
-
-
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
         {{ with .pretitle }}
           <p class="text-danger fw-semibold mb-2">{{ . }}</p>
@@ -27,80 +25,42 @@
         </div>
       </div>
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center align-items-center">
-        {{ with .image }}
-            <div class="image-cropper">
-                {{ partial "utilities/image-fluid.html" . }}
-            </div>
-        {{ end }}
+        <a href="{{ .imageUrl }}" target="_blank">
+          <div class="image-cropper">
+            <img src="{{ .image }}" class="img-fluid" alt="Imagen de {{ .title }}">
+          </div>
+        </a>
         <br>
         <br>
       </div>
-
     </div>
     {{ end }}
   </div>
   <br>
-
-  <style>
-    .image-cropper {
-        position: relative;
-        overflow: hidden;
-        width: 60%;
-        padding-top: 75%; /* This maintains the aspect ratio */
-    }
-    
-    .image-cropper img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 90%;
-        object-fit: cover;
-        object-position: top;
-    }
-    </style>
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video Embeded</title>
-  <style>
-      .video-container {
-          position: relative;
-          padding-bottom: 30%; /* Aspect ratio */
-          height: 0;
-          overflow: hidden;
-          max-width: 50%;
-          background: #000;
-          margin: 0 auto; /* Center the video container */
-      }
-
-      .video-container iframe {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          border: 0;
-      }
-
-      @media (max-width: 768px) {
-          .video-container {
-            padding-bottom: 60%; /* Aspect ratio */
-            max-width: 100%;
-          }
-      }
-  </style>
-</head>
-<body>
-  <div class="row pb-5">
-    <div class="col-12">
-        <h3 class="fs-1 fw-bold text-center text-secondary pb-3">Conoce los inicios de Capybara</h3>
-    </div>
-  </div>
-  <div class="video-container">
-      <iframe src="https://www.youtube.com/embed/jiFa58-Lugk" title="When bullying meets (video) game theory" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-</body>
-</body>
 </section>
+
+<style>
+  .image-cropper {
+    position: relative;
+    overflow: hidden;
+    width: 60%;
+    padding-top: 75%; /* This maintains the aspect ratio */
+  }
+
+  .image-cropper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  @media (max-width: 768px) {
+    .video-container {
+      padding-bottom: 60%; /* Aspect ratio */
+      max-width: 100%;
+    }
+  }
+</style>
