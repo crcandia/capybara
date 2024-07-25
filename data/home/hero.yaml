@@ -2,7 +2,7 @@ enabled: true
 id: "hero"
 
 content:
-  title: "Prevenimos juntos el bullying"
+  title: "Juntos prevenimos el bullying"
   text: "Capybara implementa dilemas sociales en juegos para mapear las interacciones entre estudiantes en tiempo real para detectar situaciones de bullying de manera temprana." #Proporcionamos un reporte que permite tomar decisiones informadas para crear un entorno escolar más seguro."
 
  # buttonPrimary:
