@@ -1,10 +1,10 @@
 <section class="section hero py-5">
   <div class="container">
     <div class="row flex-column flex-xl-row-reverse">
-      <div class="col-12 col-xl-6  d-flex flex-column justify-content-center hero-image">
+      <div class="col-12 col-xl-6  d-flex flex-column justify-content-center hero-image mobile-order-2">
         {{ partial "utilities/image-fluid" "images/hero-image.png" }}
       </div>
-      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center mobile-order-1">
         {{ with .content.title }}
           <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</h3>
         {{ end }}
@@ -24,4 +24,22 @@
       
     </div>
   </div>
+
 </section>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Section</title>
+  <style>
+      @media (max-width: 768px) {
+          .mobile-order-2 {
+              order: 2;
+          }
+
+          .mobile-order-1 {
+              order: 1;
+          }
+      }
+  </style>
+</head>
