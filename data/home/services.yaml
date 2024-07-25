@@ -9,7 +9,7 @@ content:
   pueden comprometer la precisión de la información obtenida mediante métodos tradicionales como encuestas y sociogramas."
   cards:
     - image: "images/gamificacion2.png"
-      title: "Gamificación para maximizar el engagement"
+      title: "Gamificación para maximizar la participación"
       text: "La gamificación es un enfoque pedagógico que utiliza elementos de los juegos para fomentar el compromiso y la motivación en los 
       estudiantes. En Capybara, hemos diseñado una experiencia de juego que es atractiva y divertida, lo que permite a los niños participar 
       de manera activa y entusiasta. En Capybara, los niños se sienten incentivados a interactuar con sus 
@@ -23,11 +23,12 @@ content:
 
     - image: "images/Game_theory.png"
       title: "Teoría de juegos para modelar dilemas sociales"
-      text: "La teoría de juegos es una herramienta poderosa que nos permite entender y predecir el comportamiento en situaciones de 
-      interacción estratégica. En Capybara, la utilizamos para crear escenarios que simulan dilemas sociales, donde los niños toman 
+      text: "La teoría de juegos es una herramienta matemática poderosa que nos permite entender, modelar y predecir el comportamiento humano 
+      en situaciones de interacción estratégica. 
+      En Capybara, la utilizamos para crear escenarios que simulan dilemas sociales, donde los niños toman 
       decisiones que afectan tanto a ellos como a sus compañeros. Estos escenarios reflejan situaciones reales de convivencia escolar, 
       permitiendo a los niños explorar estrategias y consecuencias de sus acciones en un entorno seguro. Al observar sus respuestas, 
-      obtenemos una visión profunda de sus patrones de comportamiento y relaciones, sin preguntas invasivas. Esto reduce los sesgos 
+      podemos entender sus patrones de comportamiento y relaciones, sin preguntas invasivas. Esto reduce los sesgos 
       cognitivos y de deseabilidad social, permitiendo una evaluación más precisa del entorno escolar."
       # button:
       #   label: "Learn more"
