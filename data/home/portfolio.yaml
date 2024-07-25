@@ -2,6 +2,7 @@ enabled: true
 id: "portfolio"
 
 content:
+
   - image: "images/prensa111.png"
     pretitle: "Capybara en medios"
     title: "Videojuego predice y previene el bullying escolar con ayuda de la tecnología"
