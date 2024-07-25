@@ -6,4 +6,4 @@ content:
   image: "images/logo_CAPYBARA-03.png"
   button:
     label: "Hablemos"
-    url: "services"
+    url: "#"

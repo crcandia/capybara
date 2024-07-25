@@ -5,19 +5,19 @@ content:
   title: "Testimonios"
 
   featured:
-    image: "images/testimonials-awards.png"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur et pretium nunc, quis euismod et. Volutpat suspendisse sed in blandit condimentum. Sagittis nullam nec mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida lobortis in ultricies enim vulputate non. Neque nibh donec quam lectus."
-    client: "Anonymous Customer"
+    image: "images/testimonio1.png"
+    text: "Para mi es muy importante porque mi curso pasó una etapa de bullying tremenda. Uno se dedica a hacer clases y a veces la parte social va en segundo plano. Es una experiencia que ojalá todos la tuvieran, mas que nosotros los alumnos ya que el beneficio es para ellos."
+    client: "Amanda González, profesora escuela Eliodoro Yañez Ponce de León."
 
   list:
-    - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur et pretium nunc, quis euismod et. Volutpat suspendisse sed in blandit condimentum. Sagittis nullam nec mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida lobortis in ultricies enim vulputate non. Neque nibh donec quam lectus."
-      client: "Anonymous Customer"
+    - text: "Me pareció divertida porque nunca habíamos jugado en la sala de clases con tablets"
+      client: "Estudiante anónimo"
 
-    - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur et pretium nunc, quis euismod et. Volutpat suspendisse sed in blandit condimentum. Sagittis nullam nec mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida lobortis in ultricies enim vulputate non. Neque nibh donec quam lectus."
-      client: "Anonymous Customer"
+    - text: "Fue bacán porque así podía repartirle fichas a mis compañeros y jugar con ellos."
+      client: "Estudiante anónimo"
 
-    - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur et pretium nunc, quis euismod et. Volutpat suspendisse sed in blandit condimentum. Sagittis nullam nec mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida lobortis in ultricies enim vulputate non. Neque nibh donec quam lectus."
-      client: "Anonymous Customer"
+    # - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur et pretium nunc, quis euismod et. Volutpat suspendisse sed in blandit condimentum. Sagittis nullam nec mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida lobortis in ultricies enim vulputate non. Neque nibh donec quam lectus."
+    #   client: "Anonymous Customer"
 
     # - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur et pretium nunc, quis euismod et. Volutpat suspendisse sed in blandit condimentum. Sagittis nullam nec mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida lobortis in ultricies enim vulputate non. Neque nibh donec quam lectus."
     #   client: "Anonymous Customer"
