@@ -2,26 +2,48 @@ enabled: true
 id: "services"
 
 content:
-  title: "Our main services"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
+  title: "Nuestros pilares fundamentales"
+  text: "Los niños a menudo son reacios a informar sobre el bullying debido al miedo a represalias o a la vergüenza, fenómeno conocido como 
+  sesgo de deseabilidad social. Además, pueden no comprender completamente las preguntas que se les hacen, lo que se denomina sesgo 
+  cognitivo, particularmente prevalente en los niños pequeños. Estos sesgos, junto con la tendencia de los niños a aburrirse rápidamente, 
+  pueden comprometer la precisión de la información obtenida mediante métodos tradicionales como encuestas y sociogramas."
   cards:
-    - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
-      button:
-        label: "Learn more"
-        url: "#"
+    - image: "images/gamificacion2.png"
+      title: "Gamificación para maximizar el engagement"
+      text: "La gamificación es un enfoque pedagógico que utiliza elementos de los juegos para fomentar el compromiso y la motivación en los 
+      estudiantes. En Capybara, hemos diseñado una experiencia de juego que es atractiva y divertida, lo que permite a los niños participar 
+      de manera activa y entusiasta. En Capybara, los niños se sienten incentivados a interactuar con sus 
+      compañeros, lo que facilita la recopilación de datos sobre sus interacciones sociales de manera amigable y sin presión. 
+      La gamificación también 
+      ayuda a mantener la atención de los niños, superando el problema del aburrimiento rápido y garantizando que la 
+      detección de comportamientos problemáticos se realicen de manera continua y efectiva."
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
 
-    - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
-      button:
-        label: "Learn more"
-        url: "#"
+    - image: "images/Game_theory.png"
+      title: "Teoría de juegos para modelar dilemas sociales"
+      text: "La teoría de juegos es una herramienta poderosa que nos permite entender y predecir el comportamiento en situaciones de 
+      interacción estratégica. En Capybara, utilizamos la teoría de juegos para crear escenarios que simulan dilemas sociales, en los que 
+      los niños deben tomar decisiones que afectan tanto a ellos mismos como a sus compañeros. Estos escenarios están diseñados para 
+      reflejar situaciones reales de convivencia escolar, proporcionando un entorno seguro donde los niños pueden explorar diferentes 
+      estrategias y consecuencias de sus acciones. Al observar cómo los niños responden a estos dilemas, podemos obtener una visión 
+      profunda de sus patrones de comportamiento y relaciones interpersonales, sin necesidad de hacer preguntas invasivas o complejas. 
+      Esto reduce significativamente los sesgos cognitivos y de deseabilidad social, permitiendo una evaluación más precisa y auténtica 
+      del entorno escolar."
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
 
-    - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
-      button:
-        label: "Learn more"
-        url: "#"
+    - image: "images/AI.png"
+      title: "Inteligencia artificial para identificar patrones de bullying"
+      text: "La inteligencia artificial (IA) es una tecnología avanzada que nos permite analizar grandes volúmenes de datos de manera 
+      eficiente y precisa. En Capybara, utilizamos algoritmos de IA para procesar la información recopilada a través del juego y detectar 
+      patrones sutiles que pueden indicar situaciones de bullying o conflicto. La IA nos ayuda a identificar las redes de relaciones dentro 
+      del aula, destacando a los niños que pueden estar en riesgo de ser víctimas de acoso. Además, la IA nos permite monitorear cambios 
+      en el comportamiento y las interacciones a lo largo del tiempo, proporcionando alertas tempranas para intervenir de manera preventiva. 
+      Este enfoque proactivo no solo mejora la seguridad y el bienestar de los estudiantes, sino que también ofrece a los educadores y 
+      padres una herramienta poderosa para crear un entorno escolar más positivo y inclusivo."
+      # button:
+      #   label: "Learn more"
+      #   url: "#"

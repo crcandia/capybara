@@ -2,14 +2,14 @@ enabled: true
 id: "hero"
 
 content:
-  title: "How to **level up** your business"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est faucibus tellus leo non pellentesque lorem vel. Arcu magna eros, potenti duis."
+  title: "Prevenimos juntos el bullying"
+  text: "Capybara implementa dilemas sociales en juegos para mapear las interacciones entre estudiantes en tiempo real para detectar situaciones de bullying de manera temprana." #Proporcionamos un reporte que permite tomar decisiones informadas para crear un entorno escolar más seguro."
 
-  buttonPrimary:
-    label: "How we work"
-    url: "#"
+ # buttonPrimary:
+ #   label: "¿Cómo trabajamos?"
+ #   url: ""
 
-  buttonSecondary:
-    label: "Let's talk"
-    url: ""
+ # buttonSecondary:
+ #   label: "Hablemos!"
+ #   url: ""
 

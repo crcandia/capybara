@@ -1,18 +1,18 @@
 baseURL: "https://capybaratest.netlify.app/"
 theme: "up-business-theme"
-languageCode: "en-us"
+languageCode: "es-us"
 
-title: "Up Business"
+title: "CAPYBARA"
 
 # googleAnalytics: ""
 
 summaryLength: 20
 
 params:
-  title: "Up Business"
-  description: "We specialize in providing services to desing websites, applications, build and maintain business for customers."
+  title: "CAPYBARA"
+  description: "Detectar el bullying en sus etapas iniciales, transformando la experiencia educativa de los niños para un futuro mejor"
   images: 
-    - "images/hero-image.png"
+    - "images/logo_CAPYBARA-03.png"
 
   logo: "arrow-up.png"
 
@@ -22,20 +22,20 @@ params:
     faviconColor: "#000000"
 
   social:
-    dribbble: "#"
-    instagram: "#"
-    facebook: "#"
-    twitter: "#"
+    # dribbble: "#"
+    # instagram: "#"
+    # facebook: "#"
+    # twitter: "#"
 
   location:
-    - "3891 Ranchview Dr. Richardson, California 62639"
-    - "4517 Washington Ave. Manchester, Kentucky 39495"
+    - "Av. Las Condes 12461, Las Condes, Región Metropolitana, Chile 7590943"
+    # - "4517 Washington Ave. Manchester, Kentucky 39495"
 
   contact:
-    - "trungkienspktnd@gamail.com"
-    - "207.555.0119"
+    - "hola@capybara.cl"
+    # - "207.555.0119"
 
-  copyright: "© 2022 Up Business All Rights Reserved"
+  copyright: "© 2024 Capybara All Rights Reserved"
 
 menus:
   main:
@@ -43,15 +43,15 @@ menus:
       url: "/#hero"
       weight: 1
 
-    - name: "How we work"
+    - name: "¿Cómo trabajamos?"
       url: "/#"
       weight: 2
 
-    - name: "Our team"
+    - name: "Nuestro equipo"
       url: "/#"
       weight: 3
 
-    - name: "Pricing"
+    - name: "Precios"
       url: "/#"
       weight: 4
 
@@ -60,7 +60,7 @@ menus:
       weight: 5
 
   buttons:
-    - name: "Book a call"
+    - name: "Agenda una llamada"
       url: "/#"
       weight: 5
       pre: "btn btn-primary text-light"
@@ -70,15 +70,15 @@ menus:
       url: "/#hero"
       weight: 1
 
-    - name: "How we work"
+    - name: "¿Cómo trabajamos?"
       url: "/#"
       weight: 2
 
-    - name: "Our team"
+    - name: "Nuestro equipo"
       url: "/#"
       weight: 3
 
-    - name: "Pricing"
+    - name: "Precios"
       url: "/#"
       weight: 4
 

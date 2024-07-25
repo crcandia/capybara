@@ -2,8 +2,8 @@ enabled: true
 id: "cta"
 
 content:
-  title: "Start your business now!"
-  image: "images/services-web-development.png"
+  title: "Previene el bullying ya!"
+  image: "images/logo_CAPYBARA-03.png"
   button:
-    label: "Let's talk"
+    label: "Hablemos"
     url: "#"
