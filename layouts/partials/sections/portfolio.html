@@ -8,13 +8,8 @@
 
     {{ range .content }}
     <div class="row portfolio-feature">
-      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center align-items-center">
-        {{ with .image }}
-            <div class="image-cropper">
-                {{ partial "utilities/image-fluid.html" . }}
-            </div>
-        {{ end }}
-    </div>
+
+
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
         {{ with .pretitle }}
           <p class="text-danger fw-semibold mb-2">{{ . }}</p>
@@ -35,6 +30,14 @@
           {{ end }}
         </div>
       </div>
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center align-items-center">
+        {{ with .image }}
+            <div class="image-cropper">
+                {{ partial "utilities/image-fluid.html" . }}
+            </div>
+        {{ end }}
+      </div>
+
     </div>
     {{ end }}
   </div>
@@ -58,7 +61,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 90%;
         object-fit: cover;
         object-position: top;
     }
