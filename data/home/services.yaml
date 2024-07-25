@@ -8,7 +8,7 @@ content:
   cognitivo, particularmente prevalente en los niños pequeños. Estos sesgos, junto con la tendencia de los niños a aburrirse rápidamente, 
   pueden comprometer la precisión de la información obtenida mediante métodos tradicionales como encuestas y sociogramas."
   cards:
-    - image: "images/gamificacion2.png"
+    - image: "images/pilar_gamificacion.png"
       title: "Gamificación para maximizar la participación"
       text: "La gamificación es un enfoque pedagógico que utiliza elementos de los juegos para fomentar el compromiso y la motivación en los 
       estudiantes. En Capybara, hemos diseñado una experiencia de juego que es atractiva y divertida, lo que permite a los niños participar 
@@ -21,7 +21,7 @@ content:
       #   label: "Learn more"
       #   url: "#"
 
-    - image: "images/Game_theory.png"
+    - image: "images/pilar_Game_theory.png"
       title: "Teoría de juegos para modelar dilemas sociales"
       text: "La teoría de juegos es una herramienta matemática poderosa que nos permite entender, modelar y predecir el comportamiento humano 
       en situaciones de interacción estratégica. 
@@ -34,7 +34,7 @@ content:
       #   label: "Learn more"
       #   url: "#"
 
-    - image: "images/AI.png"
+    - image: "images/pilar_AI.png"
       title: "Inteligencia artificial para identificar patrones de bullying"
       text: "La inteligencia artificial (IA) es una tecnología avanzada que permite analizar grandes volúmenes de datos de manera eficiente. 
       En Capybara, usamos algoritmos de IA para procesar la información del juego y detectar patrones sutiles de bullying o conflicto. La 
