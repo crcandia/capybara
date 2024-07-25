@@ -2,38 +2,38 @@ enabled: true
 id: "portfolio"
 
 content:
-  - image: "images/logo_CAPYBARA-03.png"
+  - image: "images/prensa01.png"
     pretitle: "Capybara en medios"
-    title: "We developed an eCommerce website"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    title: "Videojuego predice y previene el bullying escolar con ayuda de la tecnología"
+    text: "Se trata de Capybara, el cual permite identificar potenciales casos de acoso, contribuyendo a la creación de entornos saludables y una mejora en los procesos de aprendizaje."
 
     buttons: 
       - label: "Leer más"
-        url: "#"
+        url: "https://www.24horas.cl/tendencias/tecnologia-y-ciencias/videojuego-chileno-predice-y-previene-bullying-escolar"
 
       # - label: "Read more"
       #   url: "#"
 
-  - image: "images/logo_CAPYBARA-03.png"
+  - image: "images/prensa02.png"
     pretitle: "Capybara en medios"
-    title: "We developed an eCommerce website"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    title: "Videojuego chileno predice y previene bullying escolar en niños de primero a quinto básico"
+    text: "La experiencia de 'Capybara' dura en total cerca de 45 minutos, incluyendo una charla introductoria, el juego y un reporte final."
 
     buttons: 
       - label: "Leer más"
-        url: "#"
+        url: "https://www.emol.com/noticias/Economia/2024/01/25/1119686/videojuego-predice-previene-bullying-escolar.html"
 
       # - label: "Read more"
       #   url: "#"
 
-  - image: "images/logo_CAPYBARA-03.png"
+  - image: "images/prensa03.png"
     pretitle: "Capybara en medios"
-    title: "We developed an eCommerce website"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    title: "Angelino es parte del equipo creativo de innovador videojuego que predice y previene el bullying"
+    text: "Capybara permite identificar potenciales casos de acoso escolar, contribuyendo a la creación de entornos saludables y una mejora en los procesos de aprendizaje."
 
     buttons: 
       - label: "Leer más"
-        url: "#"
+        url: "https://www.latribuna.cl/nuestra-gente/2024/02/07/angelino-es-parte-del-equipo-creativo-de-innovador-videojuego-que-predice-y-previene-el-bullying.html"
 
       # - label: "Read more"
       #   url: "#"
