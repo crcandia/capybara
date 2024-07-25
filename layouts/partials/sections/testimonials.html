@@ -47,23 +47,26 @@
   </div>
 
   <style> 
-@media (max-width: 768px) {
+        @media (max-width: 768px) {
             .size-64.me-4 {
-                display: none; /* Hide the green circle on mobile */
+                display: none; /* Ocultar el círculo verde en móviles */
             }
 
             .card {
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
-                width: auto; /* Ajuste el ancho automáticamente según el contenido */
+                width: 100%; /* Ajuste el ancho al 100% del contenedor padre */
+                box-sizing: border-box; /* Include padding and border in the element's total width and height */
             }
 
             .card-text {
                 text-align: center;
-                flex-direction: column;
-                margin: 0; /* Remove any unwanted margin */
+                margin: 0; /* Eliminar cualquier margen no deseado */
+                width: 100%; /* Hacer que el texto ocupe el 100% del ancho del contenedor en móvil */
+                box-sizing: border-box; /* Include padding and border in the element's total width and height */
             }
         }
+    </style>
 </style>
 </section>
