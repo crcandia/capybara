@@ -2,7 +2,7 @@ enabled: true
 id: "portfolio"
 
 content:
-  - image: "images/prensa11.png"
+  - image: "images/prensa111.png"
     pretitle: "Capybara en medios"
     title: "Videojuego predice y previene el bullying escolar con ayuda de la tecnología"
     text: "Se trata de Capybara, el cual permite identificar potenciales casos de acoso, contribuyendo a la creación de entornos saludables y una mejora en los procesos de aprendizaje."
@@ -14,7 +14,7 @@ content:
       # - label: "Read more"
       #   url: "#"
 
-  - image: "images/prensa22.png"
+  - image: "images/prensa222.png"
     pretitle: "Capybara en medios"
     title: "Videojuego chileno predice y previene bullying escolar en niños de primero a quinto básico"
     text: "La experiencia de 'Capybara' dura en total cerca de 45 minutos, incluyendo una charla introductoria, el juego y un reporte final."
@@ -26,7 +26,7 @@ content:
       # - label: "Read more"
       #   url: "#"
 
-  - image: "images/prensa33.png"
+  - image: "images/prensa333.png"
     pretitle: "Capybara en medios"
     title: "Angelino es parte del equipo creativo de innovador videojuego que predice y previene el bullying"
     text: "Capybara permite identificar potenciales casos de acoso escolar, contribuyendo a la creación de entornos saludables y una mejora en los procesos de aprendizaje."

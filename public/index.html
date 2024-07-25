@@ -418,14 +418,16 @@
   <div class="container">
     
     <div class="row portfolio-feature">
-      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center align-items-center">
         
-          
-  <img class="img-fluid" src="http://localhost:1313/images/prensa11.png" alt="/images/prensa11.png" width="194" height="400">
+            <div class="image-cropper">
+                
+  <img class="img-fluid" src="http://localhost:1313/images/prensa111.png" alt="/images/prensa111.png" width="924" height="1452">
 
 
+            </div>
         
-      </div>
+    </div>
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
         
           <p class="text-danger fw-semibold mb-2">Capybara en medios</p>
@@ -445,14 +447,16 @@
     </div>
     
     <div class="row portfolio-feature">
-      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center align-items-center">
         
-          
-  <img class="img-fluid" src="http://localhost:1313/images/prensa22.png" alt="/images/prensa22.png" width="194" height="400">
+            <div class="image-cropper">
+                
+  <img class="img-fluid" src="http://localhost:1313/images/prensa222.png" alt="/images/prensa222.png" width="914" height="1230">
 
 
+            </div>
         
-      </div>
+    </div>
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
         
           <p class="text-danger fw-semibold mb-2">Capybara en medios</p>
@@ -472,14 +476,16 @@
     </div>
     
     <div class="row portfolio-feature">
-      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center align-items-center">
         
-          
-  <img class="img-fluid" src="http://localhost:1313/images/prensa33.png" alt="/images/prensa33.png" width="200" height="400">
+            <div class="image-cropper">
+                
+  <img class="img-fluid" src="http://localhost:1313/images/prensa333.png" alt="/images/prensa333.png" width="948" height="1328">
 
 
+            </div>
         
-      </div>
+    </div>
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
         
           <p class="text-danger fw-semibold mb-2">Capybara en medios</p>
@@ -506,6 +512,25 @@
   <br>
 
 
+  <style>
+    .image-cropper {
+        position: relative;
+        overflow: hidden;
+        width: 60%;
+        padding-top: 75%;  
+    }
+    
+    .image-cropper img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    </style>
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -513,7 +538,7 @@
     <style>
         .video-container {
             position: relative;
-            padding-bottom: 32.25%;  
+            padding-bottom: 40.25%;  
             height: 0;
             overflow: hidden;
             max-width: 60%;
