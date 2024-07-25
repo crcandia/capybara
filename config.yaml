@@ -14,7 +14,7 @@ params:
   images: 
     - "images/logo_CAPYBARA-03.png"
 
-  logo: "images/logo_CAPYBARA-03.png"
+  logo: "images/logo.png"
 
   favicons:
     themeColor: "#FFFFFF"
