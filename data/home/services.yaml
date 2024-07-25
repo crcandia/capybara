@@ -24,26 +24,22 @@ content:
     - image: "images/Game_theory.png"
       title: "Teoría de juegos para modelar dilemas sociales"
       text: "La teoría de juegos es una herramienta poderosa que nos permite entender y predecir el comportamiento en situaciones de 
-      interacción estratégica. En Capybara, utilizamos la teoría de juegos para crear escenarios que simulan dilemas sociales, en los que 
-      los niños deben tomar decisiones que afectan tanto a ellos mismos como a sus compañeros. Estos escenarios están diseñados para 
-      reflejar situaciones reales de convivencia escolar, proporcionando un entorno seguro donde los niños pueden explorar diferentes 
-      estrategias y consecuencias de sus acciones. Al observar cómo los niños responden a estos dilemas, podemos obtener una visión 
-      profunda de sus patrones de comportamiento y relaciones interpersonales, sin necesidad de hacer preguntas invasivas o complejas. 
-      Esto reduce significativamente los sesgos cognitivos y de deseabilidad social, permitiendo una evaluación más precisa y auténtica 
-      del entorno escolar."
+      interacción estratégica. En Capybara, la utilizamos para crear escenarios que simulan dilemas sociales, donde los niños toman 
+      decisiones que afectan tanto a ellos como a sus compañeros. Estos escenarios reflejan situaciones reales de convivencia escolar, 
+      permitiendo a los niños explorar estrategias y consecuencias de sus acciones en un entorno seguro. Al observar sus respuestas, 
+      obtenemos una visión profunda de sus patrones de comportamiento y relaciones, sin preguntas invasivas. Esto reduce los sesgos 
+      cognitivos y de deseabilidad social, permitiendo una evaluación más precisa del entorno escolar."
       # button:
       #   label: "Learn more"
       #   url: "#"
 
     - image: "images/AI.png"
       title: "Inteligencia artificial para identificar patrones de bullying"
-      text: "La inteligencia artificial (IA) es una tecnología avanzada que nos permite analizar grandes volúmenes de datos de manera 
-      eficiente y precisa. En Capybara, utilizamos algoritmos de IA para procesar la información recopilada a través del juego y detectar 
-      patrones sutiles que pueden indicar situaciones de bullying o conflicto. La IA nos ayuda a identificar las redes de relaciones dentro 
-      del aula, destacando a los niños que pueden estar en riesgo de ser víctimas de acoso. Además, la IA nos permite monitorear cambios 
-      en el comportamiento y las interacciones a lo largo del tiempo, proporcionando alertas tempranas para intervenir de manera preventiva. 
-      Este enfoque proactivo no solo mejora la seguridad y el bienestar de los estudiantes, sino que también ofrece a los educadores y 
-      padres una herramienta poderosa para crear un entorno escolar más positivo y inclusivo."
+      text: "La inteligencia artificial (IA) es una tecnología avanzada que permite analizar grandes volúmenes de datos de manera eficiente. 
+      En Capybara, usamos algoritmos de IA para procesar la información del juego y detectar patrones sutiles de bullying o conflicto. La 
+      IA identifica redes de relaciones en el aula, destacando a los niños en riesgo de acoso y monitoreando cambios en el comportamiento y 
+      las interacciones. Esto proporciona alertas tempranas para intervenir preventivamente, mejorando la seguridad y el bienestar de los 
+      estudiantes. Así, Capybara ofrece a educadores y padres una herramienta poderosa para crear un entorno escolar más positivo e inclusivo."
       # button:
       #   label: "Learn more"
       #   url: "#"
