@@ -14,7 +14,7 @@ params:
   images: 
     - "images/logo_CAPYBARA-03.png"
 
-  logo: "arrow-up.png"
+  logo: "images/logo_CAPYBARA-03.png"
 
   favicons:
     themeColor: "#FFFFFF"
@@ -43,17 +43,17 @@ menus:
       url: "/#hero"
       weight: 1
 
-    - name: "¿Cómo trabajamos?"
-      url: "/#"
-      weight: 2
+    # - name: "¿Cómo trabajamos?"
+    #   url: "/#"
+    #   weight: 2
 
-    - name: "Nuestro equipo"
-      url: "/#"
-      weight: 3
+    # - name: "Nuestro equipo"
+    #   url: "/#"
+    #   weight: 3
 
-    - name: "Precios"
-      url: "/#"
-      weight: 4
+    # - name: "Precios"
+    #   url: "/#"
+    #   weight: 4
 
     - name: "Blog"
       url: "/blog"
@@ -70,17 +70,17 @@ menus:
       url: "/#hero"
       weight: 1
 
-    - name: "¿Cómo trabajamos?"
-      url: "/#"
-      weight: 2
+    # - name: "¿Cómo trabajamos?"
+    #   url: "/#"
+    #   weight: 2
 
-    - name: "Nuestro equipo"
-      url: "/#"
-      weight: 3
+    # - name: "Nuestro equipo"
+    #   url: "/#"
+    #   weight: 3
 
-    - name: "Precios"
-      url: "/#"
-      weight: 4
+    # - name: "Precios"
+    #   url: "/#"
+    #   weight: 4
 
     - name: "Blog"
       url: "/blog"

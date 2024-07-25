@@ -2,7 +2,7 @@ enabled: true
 id: "brands"
 
 content:
-  title: "Nuestros partners confían en nosotros"
+  title: "Los partners que confían en nosotros"
   items:
     - "images/partner_braveup.png"
     - "images/partner_icono2.png"
