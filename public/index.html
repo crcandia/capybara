@@ -198,31 +198,27 @@
   <section class="section hero py-5">
   <div class="container">
     <div class="row flex-column flex-xl-row-reverse">
-      <div class="col-12 col-xl-6  d-flex flex-column justify-content-center hero-image mobile-order-2">
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center order-2 order-xl-1">
         
   <img class="img-fluid" src="http://localhost:1313/images/hero-image.png" alt="/images/hero-image.png" width="5692" height="3200">
 
 
       </div>
-      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center mobile-order-1">
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center order-1 order-xl-2">
         
           <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4">Juntos prevenimos el bullying</h3>
         
         
           <p class="text-center text-black-61 text-xl-start pb-4">Capybara implementa dilemas sociales en juegos para mapear las interacciones entre estudiantes en tiempo real y así detectar situaciones de bullying de manera temprana. Proporcionamos un reporte que permite tomar decisiones informadas para crear un entorno escolar más seguro.</p>
         
-        <div class="d-flex flex-column flex-xl-row">
-          
-            <a class="btn btn-primary text-light px-4 my-1" href="mailto:hola@capybara.cl">Hablemos!</a>
-          
-          
-        </div>
       </div>
-
-      
+      <div class="col-12 d-flex flex-column justify-content-center align-items-center order-3 order-xl-3">
+        
+          <a class="btn btn-primary text-light px-4 my-1" href="mailto:hola@capybara.cl">Hablemos!</a>
+        
+      </div>
     </div>
   </div>
-
 </section>
 
 <head>
@@ -230,17 +226,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive Section</title>
   <style>
-      @media (max-width: 768px) {
-          .mobile-order-2 {
-              order: 2;
-          }
-
-          .mobile-order-1 {
-              order: 1;
-          }
+    @media (max-width: 768px) {
+      .order-1 {
+        order: 1;
       }
+
+      .order-2 {
+        order: 2;
+      }
+
+      .order-3 {
+        order: 3;
+      }
+    }
   </style>
 </head>
+
   <section class="section brands py-5">
   <div class="container">
     <div class="row">
@@ -250,7 +251,7 @@
         </div>
       
     </div>
-    <div class="row align-items-center justify-content-center">
+    <div class="row align-items-center justify-content-center flex-column flex-md-row">
       
       <div class="col px-3 my-2 text-center">
         <a href="https://www.braveup.com/" target="_blank">
@@ -285,7 +286,16 @@
     </div>
   </div>
 </section>
-
+<style>
+  @media (max-width: 768px) {
+    .brands .row.align-items-center.justify-content-center {
+      display: flex;
+      flex-direction: column;
+      max-width: 70%;  
+      margin: 0 auto;  
+    }
+  }
+</style>
   <section class="section services py-5">
   <div class="container">
     <div class="row justify-content-center pb-5">

@@ -7,7 +7,7 @@
         </div>
       {{ end }}
     </div>
-    <div class="row align-items-center justify-content-center">
+    <div class="row align-items-center justify-content-center flex-column flex-md-row">
       {{ range .content.items }}
       <div class="col px-3 my-2 text-center">
         <a href="{{ .url }}" target="_blank">
@@ -18,3 +18,13 @@
     </div>
   </div>
 </section>
+<style>
+  @media (max-width: 768px) {
+    .brands .row.align-items-center.justify-content-center {
+      display: flex;
+      flex-direction: column;
+      max-width: 70%; /* Adjust the size as needed */
+      margin: 0 auto; /* Center the images */
+    }
+  }
+</style>
