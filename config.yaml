@@ -10,7 +10,7 @@ summaryLength: 20
 
 params:
   title: "CAPYBARA"
-  description: "Detectar el bullying en sus etapas iniciales, transformando la experiencia educativa de los niños para un futuro mejor"
+  description: "Detectamos bullying en sus etapas iniciales, transformando la experiencia educativa de los niños para un futuro mejor"
   images: 
     - "images/logo_CAPYBARA-03.png"
 
