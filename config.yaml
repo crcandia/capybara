@@ -1,6 +1,6 @@
 baseURL: "https://capybaratest.netlify.app/"
 theme: "up-business-theme"
-languageCode: "es"
+languageCode: "en"
 
 title: "CAPYBARA"
 
